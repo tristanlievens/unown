@@ -1,0 +1,10 @@
+{
+  "name": "pokemon-data",
+  "dependencies": {
+    "csv-parse": "registry:npm/csv-parse#1.0.2+20160405213407"
+  },
+  "globalDependencies": {
+    "lodash": "registry:dt/lodash#4.14.0+20160802150749",
+    "node": "registry:env/node#6.0.0+20160813135048"
+  }
+}

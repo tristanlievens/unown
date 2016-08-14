@@ -1,0 +1,22 @@
+{
+  "name": "unown",
+  "version": "1.0.0",
+  "description": "Wrapping the PokeApi data in an npm module",
+  "main": "dist/index.js",
+  "author": "",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "watch": "tsc --watch",
+    "prepublish": "typings install && npm run build"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tristanlievens/unown"
+  },
+  "dependencies": {
+    "csv-parse": "^1.1.7",
+    "fs": "0.0.2",
+    "lodash": "^4.15.0"
+  }
+}
