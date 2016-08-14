@@ -9,6 +9,12 @@
     "watch": "tsc --watch",
     "prepublish": "typings install && npm run build"
   },
+  "files": [
+    "dist",
+    "data",
+    "src",
+    "index.d.ts"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
