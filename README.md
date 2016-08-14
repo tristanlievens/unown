@@ -17,4 +17,9 @@ Most of the usage is enforced by the typescript declaration. Currently there are
 import * as unown from 'unown'
 
 unown.findPokemon(1) // { id: 1, identifier: 'bulbasaur', ... }
+unown.findMove(1)    // { id: 1, identifier: 'pound', type: { identifier: 'normal', ... } ... }
+
+const bulba = unown.findPokemon(1)
+const ember = unown.findMove(52)
+unown.typeEfficacy(ember.type, bulba.types[0]) // fire, grass => 200
 ```
