@@ -1,6 +1,6 @@
 {
   "name": "unown",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Wrapping the PokeApi data in an npm module",
   "main": "dist/index.js",
   "author": "",

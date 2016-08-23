@@ -50,7 +50,7 @@ interface StatsRow {
 export const stats = makeDataReader<StatsRow>('stats.csv') 
 
 interface ProMove {
-  pro_id: number
+  pro_move_id: number
   move_id: number
 }
 

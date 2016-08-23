@@ -9,7 +9,7 @@ const findMove = (id: number): Move => {
 }
 
 const findProMove = (id: number): Move => (
-  findMove(_.find(data.proMoves(), row => row.pro_id === id).move_id)
+  findMove(_.find(data.proMoves(), row => row.pro_move_id === id).move_id)
 )
 
 const typeEfficacy = (attType: Type, defType: Type):number => (
