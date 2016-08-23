@@ -3,8 +3,8 @@
 # Unown
 Node library to easily find information about pokemon data, based on data provided by [PokeApi](https://github.com/PokeAPI/pokeapi).
 
-[![npm version](https://img.shields.io/npm/v/unown.svg?style=flat-square)](https://www.npmjs.com/package/redux)
-[![npm downloads](https://img.shields.io/npm/dm/unown.svg?style=flat-square)](https://www.npmjs.com/package/redux)
+[![npm version](https://img.shields.io/npm/v/unown.svg?style=flat-square)](https://www.npmjs.com/package/unown)
+[![npm downloads](https://img.shields.io/npm/dt/unown.svg?style=flat-square)](https://www.npmjs.com/package/unown)
 
 ## Installation
 To install, simply run 
